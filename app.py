@@ -1,4 +1,4 @@
-pip install fastapi
+
 from fastapi import FastAPI, File, UploadFile, Form, Request, HTTPException
 from fastapi.templating import Jinja2Templates
 from fastapi.staticfiles import StaticFiles
