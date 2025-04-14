@@ -22,7 +22,7 @@ app = FastAPI()
 templates = Jinja2Templates(directory="templates")
 
 GROQ_API_URL = "https://api.groq.com/openai/v1/chat/completions"
-GROQ_API_KEY = os.getenv("GROQ_API_KEY")
+GROQ_API_KEY = os.getenv("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")
 
 if not GROQ_API_KEY:
     raise ValueError("GROQ_API_KEY is not set in the .env file")
